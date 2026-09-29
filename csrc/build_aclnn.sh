@@ -225,7 +225,7 @@ elif [[ "$SOC_VERSION" =~ ^ascend950 ]]; then
         "causal_conv1d"
         "recurrent_gated_delta_rule"
         "recurrent_kda"
-        "attn_res_fwd_fused"
+        "attn_res_fwd"
         "chunk_fwd_o_vllm"
         "chunk_gated_delta_rule_fwd_h"
         "chunk_kda_fwd"
